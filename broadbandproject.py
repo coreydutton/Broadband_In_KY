@@ -83,6 +83,7 @@ smallest_counties.plot( x= "County", y= "Coverage", color= "violet", marker= ('o
 plt.title('Broadband Coverage in Smallest Kentucky Counties')
 plt.ylim(0, 100)
 plt.margins(0)
+plt.show
 
 # Create a line plot of broadband coverage for largest counties
 largest_counties.plot( x= "County", y= "Coverage", color= "blue", marker= ('o'))
@@ -90,4 +91,5 @@ plt.title('Broadband Coverage in Largest Kentucky Counties')
 plt.ylim([90, 100])
 plt.ylabel('Broadband Coverage in %', size =12)
 plt.xlabel('County', size =12)
-plt.margins(0)
+plt.margins(0) 
+plt.show
