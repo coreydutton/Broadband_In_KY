@@ -2,16 +2,20 @@
 import numpy as np
 import pandas as pd
 import math 
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Read in broadband data
 broadband = pd.read_csv('broadbandbyco.csv')
 
-# Remove unwanted characters in 'Coverage' column
-broadband['Coverage'] = broadband['Coverage'].str.replace('%', '')
-print(broadband)
-
 # Convert Coverage column to floats
 broadband['Coverage'] =broadband['Coverage'].astype(float)
+
+# Remove unwanted characters from 'Population' column
+broadband['Population'] =broadband['Population'].str.replace(',', '')
+
+# Convert 'Population' to floats
+broadband['Population'] =broadband['Population'].astype(float)
 
 # Round up values in 'Coverage' column
 broadband['Coverage'] = broadband['Coverage'].round(0)
@@ -21,9 +25,19 @@ print(broadband)
 broadband = broadband.sort_values('Population')
 print(broadband)
 
-# Import requirements
-import matplotlib.pyplot as plt
-import seaborn as sns
+# Determine median broadband coverage
+broadband['Coverage'].median()
+
+# Determine median population size
+broadband['Population'].median()
+
+# Determine smallest 10% of counties
+smallest_counties = broadband.head(13)
+print(smallest_counties)
+
+# Determine largest 10% of counties
+largest_counties = broadband.tail(13)
+print(largest_counties)
 
 # Set plot style
 sns.set_theme(style="whitegrid")
