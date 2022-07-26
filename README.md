@@ -8,6 +8,9 @@ This project focuses on access to broadband services across all 120 counties in 
 Results: 
 
 *How to Run this Program*
+1. Clone this repository. 
+2. (Optional) Create a virtual environment.
+3. Install requirements 
 
 *Code Louisville Requirements*
 1. Read in data from csv.
