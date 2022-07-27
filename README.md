@@ -24,8 +24,12 @@ While access to broadband varies and many counties in Kentucky do have 100% broa
 
 1. Clone this repository. 
 2. (Optional) Create a virtual environment.
-3. Install requirements 
-
+3. Install requirements:  
+    import numpy as np
+    import pandas as pd
+    import math 
+    import matplotlib.pyplot as plt
+    import seaborn as sns
 *Code Louisville Requirements Met*
 1. Read in data from csv.
 2. Manipulate and clean data using built-in pandas or numpy functions. 
