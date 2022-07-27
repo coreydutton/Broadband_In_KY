@@ -26,12 +26,12 @@ While access to broadband varies and many counties in Kentucky do have 100% broa
 2. (Optional) Create a virtual environment.
 3. Install requirements 
 
-*Code Louisville Requirements*
+*Code Louisville Requirements Met*
 1. Read in data from csv.
 2. Manipulate and clean data using built-in pandas or numpy functions. 
 3. Analyze data using at least 5 pandas calculations. 
 4. Visualize data with matplotlib or seaborn.
-5. Interpret data. 
+5. Markdown interpretations in Jupyter Notebook. 
 
 
 *Acknowledgements*
