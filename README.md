@@ -1,4 +1,6 @@
-# Broadband Access Across Kentucky Counties \n by Corey Dutton
+# Broadband Access Across Kentucky Counties
+
+# by Corey Dutton
 
 *Purpose*
 
