@@ -31,10 +31,10 @@ While access to broadband varies and many counties in Kentucky do have 100% broa
 3. Install requirements if not using Anaconda. You will need: notebook, numpy, pandas, matplotlib, and seaborn.   
 
     > pip install jupyter
-    pip install pandas
-    pip install matplotlib
-    pip install numpy
-    pip install seaborn
+    > pip install pandas
+    > pip install matplotlib
+    > pip install numpy
+    > pip install seaborn
 
 *Code Louisville Requirements Met*
 1. Read in data from csv.
