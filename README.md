@@ -24,7 +24,7 @@ While access to broadband varies and many counties in Kentucky do have 100% broa
 
 *How to Run this Program*
 
- Python version 3.10.5
+Latest version of Python
 
 1. Clone this repository. 
 2. (Optional) Create a virtual environment.
