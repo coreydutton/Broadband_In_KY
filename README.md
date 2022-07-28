@@ -30,8 +30,8 @@ While access to broadband varies and many counties in Kentucky do have 100% broa
 2. (Optional) Create a virtual environment.
 3. Install requirements if not using Anaconda. You will need: notebook, numpy, pandas, matplotlib, and seaborn.   
 
-    \n pip install jupyter
-    \n pip install pandas
+    > pip install jupyter
+    pip install pandas
     pip install matplotlib
     pip install numpy
     pip install seaborn
