@@ -37,8 +37,11 @@ While access to broadband varies and many counties in Kentucky do have 100% broa
     > pip install matplotlib
 
     > pip install numpy
-    
+
     > pip install seaborn
+
+4. Open a Jupyter notebook. 
+5. Run broadband.ipynb. 
 
 *Code Louisville Requirements Met*
 1. Read in data from csv.
